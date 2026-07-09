@@ -1,0 +1,30 @@
+Configuration	dashboard
+STM8CubeMX 	1.5.0
+Date	04/09/2020
+MCU	STM8S105S4Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN4	ADC_IN4	PB4
+UART2	Asynchronous	UART2_RX	PD6
+UART2	Asynchronous	UART2_TX	PD5
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+9	PA4	GPIO_Input	
+10	PA5	GPIO_Input	
+11	PA6	GPIO_Input	
+17	PB4	ADC_IN4	temperature
+19	PB2	GPIO_Output	LED_right
+20	PB1	GPIO_Output	LED_batt
+21	PB0	GPIO_Output	LED_left
+22	PE6	GPIO_Output	LED_high
+23	PE5	GPIO_Output	LED_park
+25	PC2	GPIO_Output	_1621_nCS
+26	PC3	GPIO_Output	_1621_nWR
+27	PC5	GPIO_Output	_1621_data
+39	PD2	GPIO_Output	LCD_backlight
+42	PD5	UART2_TX	
+43	PD6	UART2_RX	
